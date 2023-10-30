@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.PS-flag{
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
+
+.colors{
+    height: 33.33%;
+    width: 100%;
+}
+
+#black{
+    background-color: black;
+}
+
+#green{
+    background-color: green;
+}
+
+#white{
+    background-color: white;
+}
+
+#red-triangle{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-left: 150px solid red;
+    left: 0;
+    margin-top: -200px;
+}
